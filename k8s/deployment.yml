@@ -17,7 +17,7 @@ spec:
       containers:
         - name: 472-cicd-book
           # Use your Docker Hub image
-          image: ${DOCKER_USERNAME}/wisdom-book:latest
+          image: $itspr4weed/wisdom-book:latest
           ports:
             - containerPort: 8090 # Standard port for Next.js/Node apps
           imagePullPolicy: Always # Ensures Kubernetes pulls the 'latest' every time
